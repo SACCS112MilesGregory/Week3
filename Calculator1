@@ -1,0 +1,30 @@
+import java.util.Scanner; // program uses class Scanner
+
+public class Calculator1 
+{
+	// main method begins execution of Java application
+	public static void main(String[] args) 
+	{
+		int number1, number2, sum, product, difference, quotient;
+		
+		// create Scanner to obtain input from user		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Please enter the first number: "); // prompt
+		number1 = input.nextInt(); // read first number from user
+		
+		System.out.print("Please enter the second number: "); // prompt
+		number2 = input.nextInt(); // read second number from user
+		
+		sum = number1 + number2;
+		product = number1 * number2;
+		difference = number1 - number2;
+		quotient = number1 / number2;
+		
+		// Display results		
+		System.out.printf("The sum is: %d\n", (sum));
+		System.out.printf("The product is: %d\n", (product));
+		System.out.printf("The difference is: %d\n", (difference));
+		System.out.printf("The quotient is: %d\n", (quotient));
+	}
+}
