@@ -1,43 +1,46 @@
 4.11 Explain what happens when a Java program attempts to divide one integer by another.
-     What happens to the fractional part of the calculation? How can you avoid that outcome?
+What happens to the fractional part of the calculation? How can you avoid that outcome?
 
-     Dividing two integers results in integer division—any fractional part of the calculation is lost (i.e., truncated).
+	Dividing two integers results in integer division—any fractional part of the calculation
+	is lost (i.e., truncated).
 
 4.12 Describe the two ways in which control statements can be combined.
 
-     Control-Statement Stacking. Connect the exit point of one statement to the entry point of another.
+	Control-Statement Stacking. Connect the exit point of one statement to the entry point of another.
 
-     Control-Statement Nesting. One control statement appears inside another.
+	Control-Statement Nesting. One control statement appears inside another.
 
 4.13 What type of repetition would be appropriate for calculating the sum of the first 100 positive
-     integers?What type would be appropriate for calculating the sum of an arbitrary number of positive
-     integers? Briefly describe how each of these tasks could be performed.
+integers?What type would be appropriate for calculating the sum of an arbitrary number of positive
+integers? Briefly describe how each of these tasks could be performed.
 
-     Counter-Controlled Repetition would be appropriate for calculating the sum of the first 100 
-     positive integers.
+	Counter-Controlled Repetition would be appropriate for calculating the sum of the first 100 
+	positive integers.
 
-     Uses a counter (or control variable) to control the number of times a set of statements will execute.
+		Uses a counter (or control variable) to control the number of times a set of statements
+		will execute.
 
-     Sentinel-Controlled Repetition would be appropriate for calculating the sum of an arbitrary 
-     number of positive integers.
+	Sentinel-Controlled Repetition would be appropriate for calculating the sum of an arbitrary 
+	number of positive integers.
 
-     use a special value called a sentinel value (also called a signal value, a dummy value 
-     or a flag value) to indicate “end of data entry.” A sentinel value must be chosen that 
-     cannot be confused with an acceptable input value.
+		use a special value called a sentinel value (also called a signal value, a dummy value 
+		or a flag value) to indicate “end of data entry.” A sentinel value must be chosen that 
+		cannot be confused with an acceptable input value.
 
 4.14 What is the difference between preincrementing and postincrementing a variable?
 
-     Preincrementing causes a variable to be incremented by 1, then the new value of the variable is used
-     in the expression in which it is used.
+	Preincrementing causes a variable to be incremented by 1, then the new value of the variable is used
+	in the expression in which it is used.
 
-     Postincrementing causes the current value of tge variable to be used in tge expression in which it 
-     appears then the variable's value is incremented
+	Postincrementing causes the current value of tge variable to be used in tge expression in which it 
+	appears then the variable's value is incremented
 
-4.15 a) There should not be a semi-colon at the end of the first line, and
-        the ending quotation mark should be inside the parentheses in the second line.
+4.15 
+	a) There should not be a semi-colon at the end of the first line, and
+	   the ending quotation mark should be inside the parentheses in the second line.
 
-     b) 
+	b) 
 
-     c) There are no opening or closing braces
+	c) There are no opening or closing braces
 
-     d) There is no close brace
+	d) There is no close brace
