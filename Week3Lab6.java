@@ -31,3 +31,4 @@ public class Week3Lab6
 		System.out.printf("The quotient of the first number and the second number is %d\n", quotient);
 	}
 }
+// Ok for all labs
